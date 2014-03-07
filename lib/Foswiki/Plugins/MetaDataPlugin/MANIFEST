@@ -19,3 +19,4 @@ pub/System/MetaDataPlugin/MetaDataPluginSnap1.png 0644
 pub/System/MetaDataPlugin/MetaDataPluginSnap2.png 0644
 pub/System/MetaDataPlugin/MetaDataPluginSnap3.png 0644
 templates/metadataplugin.tmpl 0644
+locale/MetaDataPlugin/de.po
