@@ -69,6 +69,7 @@ topic edit screen.
            example: =filter="FirstName='Raffael' or !FirstName='Judith'"=  | |
 | sort | name of attribute used for sorting | name |
 | reverse | boolean flag to reverse the sorting order | off |
+| limit | maximum number of results to return | no limit |
 | mandatory | string to be inserted when a field is mandatory | <span class='foswikiAlert'>**</span> |
 | hiddenformat | format string to be used to render hidden formfields | |
 | hideempty | boolean flag to hide/show empty formfields | off |
