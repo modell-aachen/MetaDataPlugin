@@ -265,6 +265,7 @@ sub renderMetaData {
   my $theHideEmpty = Foswiki::Func::isTrue($params->{hideempty}, 0);
   my $theSort = $params->{sort};
   my $theReverse = Foswiki::Func::isTrue($params->{reverse});
+  my $theLimit = $params->{limit} || 0;
   my $theAutolink = Foswiki::Func::isTrue($params->{autolink}, 1);
   my $theFieldFormat = $params->{fieldformat};
   my $theFilter = $params->{filter};
@@ -494,6 +495,8 @@ sub renderMetaData {
   # sort and reverse
   sortRecords(\@metaDataRecords, $theSort) if $theSort;
   @metaDataRecords = reverse @metaDataRecords if $theReverse;
+
+  splice(@metaDataRecords, $theLimit) if $theLimit && @metaDataRecords > $theLimit;
 
   # loop over all meta data records
   my $index = 1;
