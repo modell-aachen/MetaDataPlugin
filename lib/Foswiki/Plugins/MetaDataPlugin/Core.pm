@@ -502,7 +502,7 @@ sub renderMetaData {
 
   # loop over all meta data records
   my $index = 1;
-  my $json = JSON->new->utf8->allow_nonref;
+  my $json = JSON->new->allow_nonref;
   foreach my $record (@metaDataRecords) {
     my $row = $theFormat;
     my $name = $record->{name};
