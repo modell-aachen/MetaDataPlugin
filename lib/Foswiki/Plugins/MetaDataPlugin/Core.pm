@@ -669,6 +669,7 @@ sub renderMetaData {
           $line = $field->renderForDisplay($line, $fieldValue, {
             bar=>'|', # SMELL: keep bars
             newline=>'$n', # SMELL: keep newlines
+            display=>1, # SMELL: FW 1.1.x won't render display values without this
           }); # SMELL what about the attrs param in Foswiki::Form; wtf is this attr anyway
         }
 
