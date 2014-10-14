@@ -704,6 +704,8 @@ sub renderMetaData {
       $row =~ s/\$orig$fieldName/$fieldValue/g;
       $row =~ s/\$json$fieldName/$json->encode($line)/ge;
       $row =~ s/\$jsonorig$fieldName/$json->encode($fieldValue)/ge;
+      $row =~ s/\$tmltable$fieldName/my $tmlLine = $line; $tmlLine =~ s#\n#\\\n#gs; $tmlLine/ge;
+      $row =~ s/\$tmltableorig$fieldName/my $tmlv = $fieldValue; $tmlv =~ s#\n#\\\n#gs; $tmlv/ge;
 
       push @fieldResult, $line;
 
