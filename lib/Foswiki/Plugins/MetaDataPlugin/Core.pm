@@ -27,6 +27,8 @@ use Foswiki::Plugins::JQueryPlugin ();
 use Error qw( :try );
 #use Data::Dumper();
 
+use JSON;
+
 use constant DEBUG => 0; # toggle me
 
 ##############################################################################
@@ -500,6 +502,7 @@ sub renderMetaData {
 
   # loop over all meta data records
   my $index = 1;
+  my $json = JSON->new->utf8->allow_nonref;
   foreach my $record (@metaDataRecords) {
     my $row = $theFormat;
     my $name = $record->{name};
@@ -699,6 +702,8 @@ sub renderMetaData {
 
       $row =~ s/\$$fieldName/$line/g;
       $row =~ s/\$orig$fieldName/$fieldValue/g;
+      $row =~ s/\$json$fieldName/$json->encode($line)/ge;
+      $row =~ s/\$jsonorig$fieldName/$json->encode($fieldValue)/ge;
 
       push @fieldResult, $line;
 
