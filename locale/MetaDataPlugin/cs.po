@@ -8,7 +8,7 @@ msgstr ""
 
 #: templates/metadataplugin.tmpl
 msgid "Are you sure that you want to delete this record?"
-msgstr "Sind Sie sicher, dass Sie diesen Eintrag lschen mchten?"
+msgstr ""
 
 #: templates/metadataplugin.tmpl
 msgid "Cancel"
