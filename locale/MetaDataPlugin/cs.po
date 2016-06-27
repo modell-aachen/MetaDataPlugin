@@ -1,3 +1,19 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-27 16:32+0200\n"
+"PO-Revision-Date: 2016-06-27 16:32+0200\n"
+"Last-Translator: Modell Aachen <access@modell-aachen.de>\n"
+"Language-Team: Czech <http://translate.modell-"
+"aachen.de/projects/metadataplugin/releasenew-york/cs/>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 1.9\n"
+
 #: data/Sandbox/TimeTrackerViewTemplate.txt
 msgid "Add a new effort"
 msgstr "přidat nový výkon"
@@ -52,7 +68,7 @@ msgstr "Nové %1"
 
 #: templates/metadataplugin.tmpl
 msgid "No, thanks"
-msgstr ""
+msgstr "Ne, děkuji"
 
 #: data/Sandbox/TimeTrackerEditTemplate.txt
 msgid "Notes"
