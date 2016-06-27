@@ -1,54 +1,54 @@
 #: data/Sandbox/TimeTrackerViewTemplate.txt
 msgid "Add a new effort"
-msgstr ""
+msgstr "přidat nový výkon"
 
 #: data/Sandbox/TimeTrackerViewTemplate.txt
 msgid "Add effort"
-msgstr ""
+msgstr "přidat výkon"
 
 #: templates/metadataplugin.tmpl
 msgid "Are you sure that you want to delete this record?"
-msgstr ""
+msgstr "Jste si jist/á, že chcete tuto zprávu vymazat?"
 
 #: templates/metadataplugin.tmpl
 msgid "Cancel"
-msgstr ""
+msgstr "Storno"
 
 #: data/Sandbox/TimeTracker.txt
 msgid "Changed"
-msgstr ""
+msgstr "Upraveno"
 
 #: templates/metadataplugin.tmpl
 msgid "Confirmation required"
-msgstr ""
+msgstr "Je nutné potvrzení "
 
 #: data/Sandbox/TimeTracker.txt
 msgid "Create a new %1"
-msgstr ""
+msgstr "Vytvořit nové %1 "
 
 #: data/Sandbox/TimeTrackerEditTemplate.txt
 msgid "Details"
-msgstr ""
+msgstr "Detaily"
 
 #: templates/metadataplugin.tmpl
 msgid "Duplicate"
-msgstr ""
+msgstr "Duplikát"
 
 #: lib/Foswiki/Plugins/MetaDataPlugin/Core.pm templates/metadataplugin.tmpl
 msgid "Edit"
-msgstr ""
+msgstr "Editovat"
 
 #: data/Sandbox/TimeTrackerViewTemplate.txt
 msgid "Edit this effort"
-msgstr ""
+msgstr "Tento výkon editovat"
 
 #: data/Sandbox/TimeTracker.txt
 msgid "New"
-msgstr ""
+msgstr "Nové"
 
 #: lib/Foswiki/Plugins/MetaDataPlugin/Core.pm
 msgid "New %1"
-msgstr ""
+msgstr "Nové %1"
 
 #: templates/metadataplugin.tmpl
 msgid "No, thanks"
@@ -56,53 +56,53 @@ msgstr ""
 
 #: data/Sandbox/TimeTrackerEditTemplate.txt
 msgid "Notes"
-msgstr ""
+msgstr "Pokyny"
 
 #: templates/metadataplugin.tmpl
 msgid "Save"
-msgstr ""
+msgstr "Uložit"
 
 #: data/Sandbox/TimeTracker.txt
 msgid "Submit"
-msgstr ""
+msgstr "Odeslat"
 
 #: data/Sandbox/TimeTrackerViewTemplate.txt
 msgid "Sum"
-msgstr ""
+msgstr "Součet"
 
 #: data/Sandbox/TimeTracker.txt
 msgid "Summary"
-msgstr ""
+msgstr "Shrnutí"
 
 #: templates/metadataplugin.tmpl
 msgid "This topic is locked. <br />Please try again later."
-msgstr ""
+msgstr "Toto téma je blokované. <br />Zkuste to znovu později."
 
 #: data/Sandbox/TimeTracker.txt data/Sandbox/TimeTrackerEditTemplate.txt
 #: templates/metadataplugin.tmpl
 msgid "Title"
-msgstr ""
+msgstr "Titul"
 
 #: data/Sandbox/TimeTrackerViewTemplate.txt
 msgid "Total"
-msgstr ""
+msgstr "Celkem"
 
 #: templates/metadataplugin.tmpl
 msgid "Warning"
-msgstr ""
+msgstr "Výstraha"
 
 #: templates/metadataplugin.tmpl
 msgid "Yes, delete"
-msgstr ""
+msgstr "Ano, vymazat"
 
 #: data/Sandbox/TimeTracker.txt
 msgid "flag indicating whether these efforts have already been invoiced"
-msgstr ""
+msgstr "Příznak ukazující, zda byly tyto výkony již vyfakturovány"
 
 #: data/Sandbox/TimeTracker.txt
 msgid "hourly rates"
-msgstr ""
+msgstr "Hodinové sazby"
 
 #: data/Sandbox/TimeTracker.txt
 msgid "tax fee per effort in percent"
-msgstr ""
+msgstr "Daňová sazba za výkon v procentech"
